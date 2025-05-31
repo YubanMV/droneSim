@@ -1,0 +1,83 @@
+1:
+  role: leader
+  neighbors:
+    - neighbor_id: 5
+      bearing: [1.0, 0.0, 0.0]
+    - neighbor_id: 3
+      bearing: [0.0, 1.0, 0.0]
+    - neighbor_id: 7
+      bearing: [0.0, 0.0, -1.0]
+    - neighbor_id: 2
+      bearing: [0.57735027, 0.57735027, -0.57735027]
+
+2:
+  role: follower
+  neighbors:
+    - neighbor_id: 1
+      bearing: [-0.57735027, -0.57735027, 0.57735027]
+    - neighbor_id: 4
+      bearing: [0.0, 0.0, 1.0]
+    - neighbor_id: 6
+      bearing: [0.0, -1.0, 0.0]
+    - neighbor_id: 8
+      bearing: [-1.0, 0.0, 0.0]
+
+3:
+  role: follower
+  neighbors:
+    - neighbor_id: 1
+      bearing: [0.0, -1.0, 0.0]
+    - neighbor_id: 4
+      bearing: [1.0, 0.0, 0.0]
+    - neighbor_id: 8
+      bearing: [0.0, 0.0, -1.0]
+
+4:
+  role: follower
+  neighbors:
+    - neighbor_id: 3
+      bearing: [-1.0, 0.0, 0.0]
+    - neighbor_id: 5
+      bearing: [0.0, -1.0, 0.0]
+    - neighbor_id: 2
+      bearing: [0.0, 0.0, -1.0]
+
+5:
+  role: leader
+  neighbors:
+    - neighbor_id: 1
+      bearing: [-1.0, 0.0, 0.0]
+    - neighbor_id: 4
+      bearing: [0.0, 1.0, 0.0]
+    - neighbor_id: 6
+      bearing: [0.0, 0.0, -1.0]
+
+6:
+  role: follower
+  neighbors:
+    - neighbor_id: 5
+      bearing: [0.0, 0.0, 1.0]
+    - neighbor_id: 7
+      bearing: [-1.0, 0.0, 0.0]
+    - neighbor_id: 2
+      bearing: [0.0, 1.0, 0.0]
+
+7:
+  role: follower
+  neighbors:
+    - neighbor_id: 1
+      bearing: [0.0, 0.0, 1.0]
+    - neighbor_id: 8
+      bearing: [0.0, 1.0, 0.0]
+    - neighbor_id: 6
+      bearing: [1.0, 0.0, 0.0]
+
+8:
+  role: follower
+  neighbors:
+    - neighbor_id: 3
+      bearing: [0.0, 0.0, 1.0]
+    - neighbor_id: 7
+      bearing: [0.0, -1.0, 0.0]
+    - neighbor_id: 2
+      bearing: [1.0, 0.0, 0.0]
